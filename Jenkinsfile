@@ -22,11 +22,12 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-            stage('stage5') {
+        }
+        stage('stage5') {
             steps {
-                echo 'Hello World'
-            }
+               echo 'Hello World'
             }
         }
     }
+            
 }
